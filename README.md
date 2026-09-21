@@ -24,6 +24,7 @@ and review, approve, or deny AI permission requests directly in the UI or on Age
 - **Risk Alert** — LED indicators, flashing, and buzzer alerts based on risk level
 - **Wireless Network** — Wireless connectivity via Wi-Fi · Bluetooth
 - **Real-time Sync** — Keep Hub sessions, AI status, and permission requests synchronized in real time
+- **Compact Size** — Just 94 × 86 × 24 mm (W × D × H)
 
 ## Permission Security
 
