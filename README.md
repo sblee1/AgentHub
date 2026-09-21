@@ -25,6 +25,8 @@ and review, approve, or deny AI permission requests directly in the UI or on Age
 - **Wireless Network** — Wireless connectivity via Wi-Fi · Bluetooth
 - **Real-time Sync** — Keep Hub sessions, AI status, and permission requests synchronized in real time
 - **Compact Size** — Just 94 × 86 × 24 mm (W × D × H)
+- **Battery Life** — Up to 20 hours of typical use
+- **USB-C Charging** — Recharge via USB-C
 
 ## Permission Security
 
