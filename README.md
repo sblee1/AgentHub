@@ -19,9 +19,12 @@ and review, approve, or deny AI permission requests directly in the UI or on Age
 
 ## Agent Seal
 
+![Agent Seal](assets/agent_seal.jpg)
+
 - **Physical Permission Approval** — Review AI permission requests on the LCD and approve with physical buttons
 - **ONCE · ALWAYS · REJECT** — Choose one-time approval, always allow, or rejection
 - **Risk Alert** — LED indicators, flashing, and buzzer alerts based on risk level
+- **Voice Input** — Use the built-in microphone to give instructions to AI agents and fill in responses by voice
 - **Wireless Network** — Wireless connectivity via Wi-Fi · Bluetooth
 - **Real-time Sync** — Keep Hub sessions, AI status, and permission requests synchronized in real time
 - **Compact Size** — Just 94 × 86 × 24 mm (W × D × H)
