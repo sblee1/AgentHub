@@ -19,7 +19,7 @@ and review, approve, or deny AI permission requests directly in the UI or on Age
 
 ## Agent Seal
 
-<img src="assets/agent_seal_rounded.png" width="949" alt="Agent Seal">
+<img src="assets/agent_seal_rounded.png" width="400" alt="Agent Seal">
 
 - **Physical Permission Approval** — Review AI permission requests on the LCD and approve with physical buttons
 - **ONCE · ALWAYS · REJECT** — Choose one-time approval, always allow, or rejection
