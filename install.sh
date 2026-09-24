@@ -37,6 +37,12 @@ if [ "$(id -u)" -eq 0 ]; then
     apt-get install -y "$package_file"
 else
     command -v sudo >/dev/null 2>&1 || fail "sudo is required for installation."
+    if ! sudo -n true 2>/dev/null; then
+        [ -r /dev/tty ] ||
+            fail "run this installer from a terminal so sudo can request your password"
+        echo "Administrator permission is required to install the package."
+        sudo -v </dev/tty
+    fi
     sudo apt-get install -y "$package_file"
 fi
 
