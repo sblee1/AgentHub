@@ -34,19 +34,6 @@ chmod 0644 aiagent_1.0.1_amd64.deb
 sudo apt install ./aiagent_1.0.1_amd64.deb
 ```
 
-### Standalone binary
-
-The standalone executable contains the complete web UI and does not require a
-separate `index.html`, CSS, JavaScript, or asset directory.
-
-```bash
-curl -fLO https://github.com/sblee1/AgentHub/releases/download/v1.0.1/aiAgent_1.0.1_linux_amd64
-curl -fLO https://github.com/sblee1/AgentHub/releases/download/v1.0.1/SHA256SUMS
-grep ' aiAgent_1.0.1_linux_amd64$' SHA256SUMS | sha256sum -c -
-chmod +x aiAgent_1.0.1_linux_amd64
-./aiAgent_1.0.1_linux_amd64
-```
-
 Launch **AI Agent Hub** from the application menu or run:
 
 ```bash
