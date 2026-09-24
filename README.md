@@ -9,6 +9,51 @@ and review, approve, or deny AI permission requests directly in the UI or on Age
 
 ![AI Agent Hub + Agent Seal](assets/hero_2.png)
 
+## Install on Ubuntu / Debian
+
+The current Linux release supports 64-bit Ubuntu and Debian systems (`amd64`).
+The application source code is not included in this distribution.
+
+### Quick install
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/main/install.sh | sh
+```
+
+The installer downloads the official DEB from GitHub Releases, verifies its
+SHA-256 checksum, and installs it through APT. To inspect the script first:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/main/install.sh -o /tmp/agenthub-install.sh
+less /tmp/agenthub-install.sh
+sh /tmp/agenthub-install.sh
+```
+
+### Manual DEB install
+
+```bash
+curl -fLO https://github.com/sblee1/AgentHub/releases/download/v1.0.1/aiagent_1.0.1_amd64.deb
+curl -fLO https://github.com/sblee1/AgentHub/releases/download/v1.0.1/SHA256SUMS
+sha256sum -c SHA256SUMS
+sudo apt install ./aiagent_1.0.1_amd64.deb
+```
+
+Launch **AI Agent Hub** from the application menu or run:
+
+```bash
+aiAgent
+```
+
+To remove it:
+
+```bash
+sudo apt remove aiagent
+```
+
+Chrome or Chromium and the desktop integration dependencies are installed or
+resolved by APT. Install and sign in to whichever supported AI CLI services you
+want to use. Agent Seal hardware is optional.
+
 ## AI Agent Hub
 
 - **Multi AI · Multi Session** — Manage up to 15 sessions across multiple AIs in one UI
