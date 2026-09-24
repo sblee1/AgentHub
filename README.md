@@ -17,14 +17,14 @@ The application source code is not included in this distribution.
 ### Quick install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/v1.0.1/install.sh | sh
 ```
 
 The installer downloads the official DEB from GitHub Releases, verifies its
 SHA-256 checksum, and installs it through APT. To inspect the script first:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/main/install.sh -o /tmp/agenthub-install.sh
+curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/v1.0.1/install.sh -o /tmp/agenthub-install.sh
 less /tmp/agenthub-install.sh
 sh /tmp/agenthub-install.sh
 ```
