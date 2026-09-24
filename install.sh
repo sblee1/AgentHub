@@ -33,6 +33,11 @@ actual_sha256=$(sha256sum "$package_file" | awk '{print $1}')
     fail "checksum verification failed"
 echo "SHA-256 verified."
 
+# APT drops privileges to the `_apt` user while reading local packages.
+# Allow that user to traverse the temporary directory and read only the DEB.
+chmod 0755 "$temporary_directory"
+chmod 0644 "$package_file"
+
 if [ "$(id -u)" -eq 0 ]; then
     apt-get install -y "$package_file"
 else
