@@ -21,20 +21,16 @@ curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/a3e9f0838359f5084bb
 ```
 
 The installer downloads the official DEB from GitHub Releases, verifies its
-SHA-256 checksum, and installs it through APT. To inspect the script first:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/a3e9f0838359f5084bb4ed27518833cce7da462e/install.sh -o /tmp/agenthub-install.sh
-less /tmp/agenthub-install.sh
-sh /tmp/agenthub-install.sh
-```
+SHA-256 checksum, and installs it through APT.
 
 ### Manual DEB install
 
 ```bash
-curl -fLO https://github.com/sblee1/AgentHub/releases/download/v1.0.1/aiagent_1.0.1_amd64.deb
-curl -fLO https://github.com/sblee1/AgentHub/releases/download/v1.0.1/SHA256SUMS
-sha256sum -c SHA256SUMS
+cd /tmp
+curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.1/aiagent_1.0.1_amd64.deb -o aiagent_1.0.1_amd64.deb
+curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.1/SHA256SUMS -o SHA256SUMS
+grep ' aiagent_1.0.1_amd64.deb$' SHA256SUMS | sha256sum -c -
+chmod 0644 aiagent_1.0.1_amd64.deb
 sudo apt install ./aiagent_1.0.1_amd64.deb
 ```
 
