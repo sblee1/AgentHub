@@ -17,7 +17,7 @@ The application source code is not included in this distribution.
 ### Quick install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/a3e9f0838359f5084bb4ed27518833cce7da462e/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/146909e0c27449746463b964e5046feafd7df966/install.sh | sh
 ```
 
 The installer downloads the official DEB from GitHub Releases, verifies its
