@@ -3,7 +3,7 @@ set -eu
 
 version="1.0.1"
 architecture="amd64"
-expected_sha256="8406b8ec98f22876fc1cb7784f1e6470db4df2c75aad67fa19680b19f0181684"
+expected_sha256="c0a91d62889988c6490bdb893820e7f5415e59c688443a5f3a818746506d14a6"
 release_base="https://github.com/sblee1/AgentHub/releases/download/v${version}"
 package_name="aiagent_${version}_${architecture}.deb"
 
