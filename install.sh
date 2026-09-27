@@ -1,9 +1,9 @@
 #!/bin/sh
 set -eu
 
-version="1.0.8"
+version="1.0.12"
 architecture="amd64"
-expected_sha256="6b5ddb2d9fb46ab81ddb8e41abbebcdb9b8687795172560804bb39dfc533c938"
+expected_sha256="0b8b95c7e2724e5d4402c3b56a4507e8fc65fad635b0133c2f9487a17e39f42e"
 release_base="https://github.com/sblee1/AgentHub/releases/download/v${version}"
 package_name="aiagent_${version}_${architecture}.deb"
 
