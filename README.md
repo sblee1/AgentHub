@@ -88,6 +88,11 @@ Agent Seal hardware is optional.
 - **Default · Security · Enhanced Security**
 - Set security policies for each AI — delegate the work to AI while keeping permissions under human control.
 
+## Video & Purchase
+
+- [Watch AI Agent Hub + Agent Seal on YouTube](https://www.youtube.com/watch?v=5ANtTE6AgXE&t=425s)
+- **Contact for Purchase:** [info@radio.kr](mailto:info@radio.kr)
+
 ---
 
 **ONE HUB · MANY MINDS**
