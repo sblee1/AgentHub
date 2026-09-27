@@ -35,11 +35,11 @@ SHA-256 checksum, and installs it through APT.
 
 ```bash
 cd /tmp
-curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.14/aiagent_1.0.14_amd64.deb -o aiagent_1.0.14_amd64.deb
-curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.14/SHA256SUMS -o SHA256SUMS
-grep ' aiagent_1.0.14_amd64.deb$' SHA256SUMS | sha256sum -c -
-chmod 0644 aiagent_1.0.14_amd64.deb
-sudo apt install ./aiagent_1.0.14_amd64.deb
+curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.15/aiagent_1.0.15_amd64.deb -o aiagent_1.0.15_amd64.deb
+curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.15/SHA256SUMS -o SHA256SUMS
+grep ' aiagent_1.0.15_amd64.deb$' SHA256SUMS | sha256sum -c -
+chmod 0644 aiagent_1.0.15_amd64.deb
+sudo apt install ./aiagent_1.0.15_amd64.deb
 ```
 
 Launch **AI Agent Hub** from the application menu or run:
@@ -54,9 +54,10 @@ To remove it:
 sudo apt remove aiagent
 ```
 
-Chrome or Chromium and the desktop integration dependencies are installed or
-resolved by APT. Install and sign in to whichever supported AI CLI services you
-want to use. Agent Seal hardware is optional.
+Chrome or Chromium must already be installed. AI Agent Hub tries Chromium first,
+then Chrome, and shows an installation message if neither browser can be launched.
+Install and sign in to whichever supported AI CLI services you want to use.
+Agent Seal hardware is optional.
 
 ## AI Agent Hub
 
