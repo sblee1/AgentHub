@@ -9,6 +9,14 @@ and review, approve, or deny AI permission requests directly in the UI or on Age
 
 ![AI Agent Hub + Agent Seal](assets/hero_2.png)
 
+## Install on Windows
+
+Download the Windows 11 x64 installer:
+
+[Download AI Agent Hub 1.0.12 for Windows](https://github.com/sblee1/AgentHub/releases/download/v1.0.12/aiAgent-1.0.12-windows-x64-setup.exe)
+
+Run the downloaded installer, then launch **AI Agent Hub** from the Windows Start menu.
+
 ## Install on Ubuntu / Debian
 
 The current Linux release supports 64-bit Ubuntu and Debian systems (`amd64`).
