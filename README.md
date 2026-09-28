@@ -35,11 +35,11 @@ SHA-256 checksum, and installs it through APT.
 
 ```bash
 cd /tmp
-curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.15/aiagent_1.0.15_amd64.deb -o aiagent_1.0.15_amd64.deb
-curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.15/SHA256SUMS -o SHA256SUMS
-grep ' aiagent_1.0.15_amd64.deb$' SHA256SUMS | sha256sum -c -
-chmod 0644 aiagent_1.0.15_amd64.deb
-sudo apt install ./aiagent_1.0.15_amd64.deb
+curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.16/aiagent_1.0.16_amd64.deb -o aiagent_1.0.16_amd64.deb
+curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.0.16/SHA256SUMS -o SHA256SUMS
+grep ' aiagent_1.0.16_amd64.deb$' SHA256SUMS | sha256sum -c -
+chmod 0644 aiagent_1.0.16_amd64.deb
+sudo apt install ./aiagent_1.0.16_amd64.deb
 ```
 
 Launch **AI Agent Hub** from the application menu or run:
