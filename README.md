@@ -13,7 +13,7 @@ and review, approve, or deny AI permission requests directly in the UI or on Age
 
 Download the Windows 11 x64 installer:
 
-[Download AI Agent Hub 1.0.15 for Windows](https://github.com/sblee1/AgentHub/releases/download/v1.0.15/aiAgent-1.0.15-windows-x64-setup.exe)
+[Download AI Agent Hub 1.0.20 for Windows](https://github.com/sblee1/AgentHub/releases/download/v1.0.20/aiAgent-1.0.20-windows-x64-setup.exe)
 
 Run the downloaded installer, then launch **AI Agent Hub** from the Windows Start menu.
 
