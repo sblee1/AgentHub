@@ -88,9 +88,9 @@ Agent Seal hardware is optional.
 - **Default · Security · Enhanced Security**
 - Set security policies for each AI — delegate the work to AI while keeping permissions under human control.
 
-## Video & Purchase
+## YouTube & Purchase
 
-- [Watch AI Agent Hub + Agent Seal on YouTube](https://www.youtube.com/watch?v=5ANtTE6AgXE&t=425s)
+- **YouTube:** [Watch AI Agent Hub + Agent Seal](https://www.youtube.com/watch?v=5ANtTE6AgXE&t=425s)
 - **Contact for Purchase:** [info@radio.kr](mailto:info@radio.kr)
 - **Price:** KRW 250,000 (Korea) / USD 180
 - Shipping not included · Hub software is free
