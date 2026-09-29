@@ -1,6 +1,8 @@
 # AI Agent Hub + Agent Seal
 
-> **AI does the work, humans approve.**
+> **One workspace. Multiple AI agents. Seamless handoff.**
+>
+> Switch AI agents without losing the work context.
 
 `OpenCode` · `Claude` · `Codex` · `Gemini` · `Grok`
 
