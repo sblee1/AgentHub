@@ -91,7 +91,7 @@ Agent Seal hardware is optional.
 ## YouTube & Purchase
 
 - **YouTube:** [Watch AI Agent Hub + Agent Seal](https://www.youtube.com/watch?v=5ANtTE6AgXE&t=425s)
-- **Contact for Purchase:** [info@radio.kr](mailto:info@radio.kr)
+- **Contact for Purchase:** [designs40@naver.com](mailto:designs40@naver.com)
 - **Price:** KRW 250,000 (Korea) / USD 180
 - Shipping not included · Hub software is free
 
