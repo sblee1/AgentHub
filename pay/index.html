@@ -56,6 +56,12 @@
     .notes { font-size: 13px; color: #86868b; line-height: 1.6; margin-bottom: 28px; padding: 0 4px; }
     .paypal-section { border-top: 1px solid #e5e5e7; padding-top: 24px; }
     .paypal-section h3 { font-size: 16px; font-weight: 600; margin-bottom: 16px; text-align: center; }
+    .shipping-notice {
+      background: #fff8e1; border: 1px solid #ffe082; border-radius: 8px;
+      padding: 14px 18px; margin-bottom: 20px; max-width: 400px; margin-left: auto; margin-right: auto;
+    }
+    .shipping-notice p { font-size: 13px; color: #5d4037; line-height: 1.6; margin: 0; }
+    .shipping-notice strong { color: #e65100; }
     #paypal-button-container { max-width: 400px; margin: 0 auto; }
     .confirmation { display: none; text-align: center; padding: 40px 20px; }
     .confirmation.show { display: block; }
@@ -109,6 +115,11 @@
         </div>
         <div class="paypal-section" id="paypal-checkout">
           <h3>Checkout</h3>
+          <div class="shipping-notice">
+            <p><strong>Step 1:</strong> Pay USD $180.00 for Agent Seal below.<br>
+            <strong>Step 2:</strong> Shipping cost will be quoted separately based on your destination and invoiced via PayPal.<br>
+            Questions? Contact <a href="mailto:designs40@naver.com">designs40@naver.com</a></p>
+          </div>
           <div id="paypal-button-container"></div>
         </div>
         <div class="confirmation" id="confirmation">
@@ -121,7 +132,7 @@
   </div>
   <footer>
     <p>Secunics &middot; Daejeon, Republic of Korea<br>
-    <a href="mailto:info@radio.kr">info@radio.kr</a> &middot;
+    <a href="mailto:designs40@naver.com">designs40@naver.com</a> &middot;
     <a href="https://www.radio.kr">radio.kr</a> &middot;
     <a href="https://github.com/sblee1/AgentHub">GitHub</a></p>
   </footer>
@@ -145,7 +156,7 @@
       },
       onError: function(err) {
         console.error('PayPal error:', err);
-        alert('Payment could not be processed. Please try again or contact info@radio.kr');
+        alert('Payment could not be processed. Please try again or contact designs40@naver.com');
       }
     }).render('#paypal-button-container');
   </script>
