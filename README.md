@@ -27,7 +27,7 @@ The application source code is not included in this distribution.
 ### Quick install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/ba02caffcfca3e91522e1ec2ead2a946d2db0156/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/sblee1/AgentHub/8da545d5a8e9dee7e3a403c6cf22ecf3400630f1/install.sh | sh
 ```
 
 The installer downloads the official DEB from GitHub Releases, verifies its
@@ -37,11 +37,10 @@ SHA-256 checksum, and installs it through APT.
 
 ```bash
 cd /tmp
-curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.1.00/aiagent_1.1.00_amd64.deb -o aiagent_1.1.00_amd64.deb
-curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.1.00/SHA256SUMS -o SHA256SUMS
-grep ' aiagent_1.1.00_amd64.deb$' SHA256SUMS | sha256sum -c -
-chmod 0644 aiagent_1.1.00_amd64.deb
-sudo apt install ./aiagent_1.1.00_amd64.deb
+curl -fL https://github.com/sblee1/AgentHub/releases/download/v1.1.20/aiagent_1.1.20_amd64.deb -o aiagent_1.1.20_amd64.deb
+printf '%s  %s\n' f93b072fc4ac29255e02e050de23243e8bedc412367303605d35fe2e153cc1fd aiagent_1.1.20_amd64.deb | sha256sum -c -
+chmod 0644 aiagent_1.1.20_amd64.deb
+sudo apt install ./aiagent_1.1.20_amd64.deb
 ```
 
 Launch **AI Agent Hub** from the application menu or run:
